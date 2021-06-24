@@ -27,3 +27,32 @@ table{
 figure, header, section, footer, nav, article, main{
     display: block;
 }
+
+fieldset{
+    border:none;
+}
+legend{
+    display: none;
+}
+input{
+    border:none;
+    background:none;
+}
+button{
+    border:none;
+    background:none;
+    cursor: pointer;
+}
+label{
+    display:inline-block
+}
+h1, h2, h3, h4, h5, h6, th, strong{
+    font-weight: normal;
+}
+address, em{
+    font-style: normal;
+}
+.blind { position:absolute; width:0px; height:0px; 
+    overflow:hidden; text-indent:-9999px; line-height:0px; 
+    font-size:0px; 
+}

@@ -28,6 +28,23 @@ body{
 #header h1{
     margin-left:40px;
 }
+#header .inner .member{
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+}
+#header .inner .member li{
+    position:absolute;
+    top:13px;
+    right:40px;
+    transition:all 0.2s;
+}
+#header .inner .member li:hover{
+    color:#21BBB1;
+}
+#header .inner .member li:hover a{
+    border-bottom: 2px solid #21BBB1;
+}
 #header #nav{
     position:absolute;
     left:50%;

@@ -75,6 +75,7 @@
 /* introduce 섹션 시작*/
 #main .introduce{
     padding:80px 0;
+    background-color: #f4f4f4;
 }
 #main .introduce .txt,
 #main .works .txt{
@@ -309,6 +310,9 @@
     color:#fff;
     text-align: center;
     transition:all 0.3s;
+}
+.plus a{
+    display: block;
 }
 .plus a:nth-child(1){
     font-size:15px;

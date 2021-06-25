@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#joinPage .joinTop{
+    background:url(../img/main_visual2.jpg);
+    background-position:center 30%;
+    padding:120px 0;
+    font-size:44px;
+    text-align: center;
+    color:#fff;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.8);
+}
+#joinPage .joinBox{
+    margin-bottom:50px;
+}
+#joinPage .joinBox h3{
+    text-align: center;
+    font-size: 46px;
+    padding:40px 0 10px;
+    font-weight: bold;
+}
+#joinPage .joinBox p{
+    text-align: center;
+    font-size:18px;
+    padding:10px 0 40px;
+}
+#joinPage button{
+    border:none;
+}
+.joinWrap th{
+    border-right: 1px solid #ccc;
+}
+.joinBox .joinWrap{
+    border:1px solid #eee;
+    padding:50px 0;
+}
+.joinWrap table{
+    font-size:13px;
+    color:#777;
+    margin-left:450px;
+    margin-top:30px;
+}
+.joinWrap col:nth-child(1){
+    width:150px;
+}
+.joinWrap col:nth-child(2){
+    width:auto
+}
+.joinWrap th,
+.joinWrap td{
+    padding:10px;
+    text-align: left;
+}
+.joinWrap input[type="text"],
+.joinWrap input[type="password"]{
+    border:1px solid #555;
+    border-radius: 3px;
+    width:150px;
+    height: 25px;
+    text-indent: 0.5em;
+}
+.joinWrap #pid + button{
+    background-color:#21BBB1;
+    color:#fff;
+    font-size:10px;
+    padding:5px 8px;
+    border-radius:3px;
+}
+
+
+
+
+
+
+.joinWrap .btn{
+    padding:60px 0 30px;
+    text-align: center;
+}
+.joinWrap .btn button{
+    width:65px;
+    height: 32px;
+    background:#777;
+    color:#fff;
+    margin:0 10px;
+    border-radius: 3px;
+}
+.joinWrap .btn button[type='reset']{
+    background-color:#ddd;
+}

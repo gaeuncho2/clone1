@@ -298,3 +298,39 @@
     right:-1px;
     background-color:rgba(0,0,0,0.4)
 }
+.plus{
+    width:50px;
+    height: 50px;
+    background-color:#000;
+    position:fixed;
+    bottom:50px;
+    left:50px;
+    border-radius: 25px;
+    color:#fff;
+    text-align: center;
+    transition:all 0.3s;
+}
+.plus a:nth-child(1){
+    font-size:15px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.plus a:nth-child(2){
+    opacity: 0;
+}
+.plus:hover{
+    background-color:#21BBB1;
+    width:200px;
+    border-radius: 50px;
+}
+.plus:hover a:nth-child(1){
+    opacity: 0;
+}
+.plus a:nth-child(2){
+    line-height:50px;
+}
+.plus:hover a:nth-child(2){
+    opacity: 1;
+}

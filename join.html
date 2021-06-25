@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클론코딩1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1><a href="index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+            <div class="member">
+                <ul>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul class="depth1 inner">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                    <ul class="depth2">
+                        <li><a href="#">Buliding</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Work</a>
+                    <ul class="depth2">
+                        <li><a href="#">Business Info</a></li>
+                        <li><a href="#">Business area</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Product</a>
+                    <ul class="depth2">
+                        <li><a href="#">Normal Type</a></li>
+                        <li><a href="#">Premium Type</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a>
+                    <ul class="depth2">
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Inquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="joinPage">
+        <div class="joinTop">
+            <h2 class="inner">MEMBER</h2>
+        </div>
+        <div class="joinBox inner">
+            <h3>JOIN</h3>
+            <p class="info">The design and maintenance are excellent.</p>
+            <div class="joinWrap">
+                <form action="#" method="#">
+                    <fieldset>
+                        <legend>회원정보</legend>
+                        <table>
+                            <colgroup>
+                            <col>
+                            <col>
+                            </colgroup>
+                            <tr>
+                                <th>
+                                    <label for="pid">ID</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="pid" name="pid">
+                                    <button type="button">CHECK</button>
+                                    (영문 대소문자, 숫자 4~16자)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="pw">PW</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="pw" name="pw">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="pwok">PW CHECK</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="pwok">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="irum">NAME</label>
+                                </th>
+                                <td>
+                                    <input type="text" name="irum" id="irum">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="email">EMAIL</label>
+                                </th>
+                                <td>
+                                    <input type="text" name="emid" id="email"> @
+                                        <select id="emcom">
+                                            <option>::이메일선택::</option>
+                                            <option value="naver.com">네이버</option>
+                                            <option value="daum.net">다음</option>
+                                            <option value="yahoo.co.kr">야후</option>
+                                            <option value="nate.com">네이트</option>
+                                            <option>직접입력</option>
+                                        </select>
+                                        <input type="text" name="emdomain" id="emdomain" disabled>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="gender">성별</label>
+                                </th>
+                                <td>
+                                    <input type="radio" name="gender" id="woman" checked>
+                                        <label for="woman" class="gender">여</label>
+                                        <input type="radio" name="gender" id="man">
+                                        <label for="man" class="gender">남</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="hobby">취미</label>
+                                </th>
+                                <td>
+                                    <input type="checkbox" name="music">
+                                    <label for="music">음악감상</label>
+                                    <input type="checkbox" name="reading">
+                                    <label for="reading">독서</label>
+                                    <input type="checkbox" name="game">
+                                    <label for="game">게임</label>
+                                    <input type="checkbox" name="gym">
+                                    <label for="gym">운동</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="birth">생년월일</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="birth" name="birth">
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </fieldset>
+                    <div class="btn">
+                        <button type="submit">JOIN</button>
+                        <button type="reset">CANCEL</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="inner cf">
+            <div class="logo-btm">
+                <h1><img src="./img/logo_btm.png" alt=""></h1>
+            </div>
+            
+            <div class="info">
+                <p>
+                    (주)웹스리퍼블릭 / 대표자 : 주필규 / 사업자등록번호 607-88-00037
+                    <span>대전광역시 서구 괴정동 85-39 202호</span>
+                    <span>전화 / <a href="tel:1800-9356">1800-9356</a> 팩스 / 0505-300-9356</span>
+                </p>
+                <p>COPYRIGHT&copy; Web's REpublic Inc. ALL RIGHT RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

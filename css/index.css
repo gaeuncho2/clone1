@@ -321,9 +321,6 @@
     top:50%;
     transform: translate(-50%, -50%);
 }
-.plus a:nth-child(2){
-    opacity: 0;
-}
 .plus:hover{
     background-color:#21BBB1;
     width:200px;
@@ -334,7 +331,9 @@
 }
 .plus a:nth-child(2){
     line-height:50px;
+    transition:all 0.5s;
+    color:transparent;
 }
 .plus:hover a:nth-child(2){
-    opacity: 1;
+    color:#fff
 }
